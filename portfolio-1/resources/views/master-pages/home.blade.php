@@ -14,7 +14,7 @@
 							<div class="text">
 								<span class="subheading">Hello! This is Shaheen</span>
 								<h1 class="mb-4 mt-3">Creative <span>Web</span> Designer &amp; Developer</h1>
-								<p><a href="#" class="btn btn-primary">Hire me</a> <a href="https://drive.google.com/file/d/1OUYpGIQA1R9zCSW3AlgvdpnoCu7py1Ib/view?usp=drive_link" class="btn btn-primary btn-outline-primary">Download CV</a></p>
+								<p><a href="{{ url('/contact') }}" class="btn btn-primary">Hire me</a> <a href="https://github.com/Md-Shaheen-Miah/CV/blob/main/Md.%20Shaheen%20Miah-CV.pdf" class="btn btn-secondary" target="_blank">Download CV</a>
 							</div>
 						</div>
 					</div>
@@ -30,7 +30,7 @@
 							<div class="text">
 								<span class="subheading">We Design &amp; Build Brands</span>
 								<h1 class="mb-4 mt-3">Hi, I am <span>Shaheen</span> This is my favorite work.</h1>
-								<p><a href="#" class="btn btn-primary">Hire me</a> <a href="#" class="btn btn-primary btn-outline-primary">Download CV</a></p>
+								<p><a href="{{ url('/contact') }}" class="btn btn-primary">Hire me</a> <a href="https://github.com/Md-Shaheen-Miah/CV/blob/main/Md.%20Shaheen%20Miah-CV.pdf" class="btn btn-secondary" target="_blank">Download CV</a>
 							</div>
 						</div>
 					</div>

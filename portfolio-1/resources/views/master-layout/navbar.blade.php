@@ -30,6 +30,10 @@
 					</div>
 				@endif
 					</div>
+					<a href="{{ url('/me') }}">
+						<img style="height: 30px; border-radius:100%; margin-top:6px; margin-left:200px;" src="master-assets/images/sahin.jpg" class="img-fluid" alt="">
+					</a>
+					
 
 				</ul>
 			</div>

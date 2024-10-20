@@ -44,6 +44,10 @@ Route::get('/project', function () {
     return view('master-pages.project');
 });
 
+Route::get('/me', function () {
+    return view('master-pages.me');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
