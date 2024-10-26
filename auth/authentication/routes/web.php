@@ -29,3 +29,21 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+
+
+
+Route::get('/admin', function () {
+    return 'Welcome Admin';
+})->middleware(['auth', 'role:admin']);
+
+Route::get('/user', function () {
+    return 'Welcome User';
+})->middleware(['auth', 'role:user']);
+
+
+
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\UserController;
+
+Route::get('/admin', [AdminController::class, 'dashboard'])->name('admin.dashboard')->middleware('auth', 'role:admin');
+Route::get('/user', [UserController::class, 'dashboard'])->name('user.dashboard')->middleware('auth', 'role:user');
